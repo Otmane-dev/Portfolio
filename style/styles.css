@@ -1,6 +1,6 @@
 body {
   font-family: raleway;
-  background-color: #cbebcb;
+  background-color: #3aa83a;
 }
 .logo {
   /*display: block;*/
@@ -15,6 +15,7 @@ body {
   /*width: 100px;*/
   display: flex;
   justify-content: center;
+  margin: 10px;
   padding: 7px;
   transition: transform 0.5s;
 }
@@ -49,6 +50,14 @@ h3 {
   border-radius: 15px;
   background-color: #ececec;
   /* width:300px;*/
+  margin-bottom:40px;
+  padding: 1px 10px 10px 10px;
+}
+.presontation {
+  border-radius: 15px;
+  background-color: #ececec;
+  margin-top:20px;
+  margin-bottom:20px;
   padding: 1px 10px 10px 10px;
 }
 .section {
@@ -69,7 +78,7 @@ img {
 .container-projet {
   border-radius: 30px;
   background-color: #ececec;
-  width: auto;
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 30px 1px;
   transition: transform 0.5s;
