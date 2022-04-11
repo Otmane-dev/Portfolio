@@ -3,20 +3,25 @@ body {
   background-color: #cbebcb;
 }
 .logo {
-  /*display: block;
-    margin: auto;*/
+  /*display: block;*/
+  margin: 10px;
   width: 250px;
   border-radius: 50px;
 }
 .btn {
- /*color: black;*/
+  /*color: black;*/
   border-radius: 30px;
   background-image: linear-gradient(to bottom, #38d568, #a4dc56);
   /*width: 100px;*/
   display: flex;
   justify-content: center;
   padding: 7px;
+  transition: transform 0.5s;
 }
+.btn:hover {
+  transform: scale(1.02);
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -86,14 +91,17 @@ footer {
   color: white;
   margin: 15px;
 }
-@media screen and (max-width:530px)
-{
-    .section{
-        display: flex;
-        flex-direction: column
-    }
-    .header{
-        display: flex;
-        flex-direction: column
-    }
+@media screen and (max-width: 530px) {
+  .logo {
+    display: block;
+    margin: auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
 }
