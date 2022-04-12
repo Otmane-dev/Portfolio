@@ -1,6 +1,6 @@
 body {
   font-family: raleway;
-  background-color: #3aa83a;
+  background-color: #0c50bb;
 }
 .logo {
   /*display: block;*/
@@ -9,9 +9,9 @@ body {
   border-radius: 50px;
 }
 .btn {
-  /*color: black;*/
+  color: white;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom, #38d568, #a4dc56);
+  background-image: linear-gradient(to bottom,#0c50bb , #a0a5d1);
   /*width: 100px;*/
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ h3 {
 }
 .description {
   background-color: #ececec;
-  margin: 5px 10px 10px 15px;
+  margin-top: 10px;
   border-radius: 30px;
   padding-left: 20px;
   padding-right: 20px;
